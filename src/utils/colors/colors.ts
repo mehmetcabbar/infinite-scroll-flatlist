@@ -1,0 +1,8 @@
+export const colors = {
+    TITLE_COLOR: '#000000',
+    TEXT_COLOR: '#979797',
+    GREEN_COLOR: '#05D7A0',
+    WHITE_COLOR: '#FFFFFF',
+    BORDER_COLOR: '#F9F9F9',
+    BACKGROUND_COLOR: '#F5F5FF'
+}

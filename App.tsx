@@ -5,15 +5,14 @@ import {
   Text,
   View,
 } from 'react-native';
+import Home from './src/pages/Home';
 
 
 const App = () => {
   return (
     <SafeAreaView>
       <StatusBar />
-      <View>
-        <Text>My first commit</Text>
-      </View>
+      <Home />
     </SafeAreaView>
   );
 };
