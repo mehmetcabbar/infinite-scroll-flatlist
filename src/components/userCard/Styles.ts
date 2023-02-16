@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
         borderRadius: 14,
         display: 'flex',
         flexDirection: 'row',
+        marginTop: 14
     },
     imageWrapper: {
         flex: 0.4,
