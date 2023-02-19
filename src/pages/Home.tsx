@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react'
 import { View, FlatList, ActivityIndicator } from 'react-native'
-import Header from '../components/header/Header'
 import UserCard from '../components/userCard/UserCard'
 import { api } from '../utils/service'
 import { styles } from './Styles'
+import { usersTypes } from '../types'
+import Header from '../components/header/Header'
 
-type FlatListProps = any
 
 const Home = () => {
-    const [users, setUsers] = useState<any>([])
+    const [users, setUsers] = useState<usersTypes[] | any>([])
     const [page, setPage] = useState<number>(1)
     const [isLoading, setIsLoading] = useState<boolean>(false)
 
@@ -42,10 +42,10 @@ const Home = () => {
         )
     };
 
-    // Run function before the page loading
+    // Run function before app page loading
     useEffect(() => {
         getUsers()
-    }, [page]) // Run getUser() when change the page value, thanks useEffect() hook
+    }, [page]) // Run getUser() when change the page value, thanks to useEffect() hook
 
     return (
         <View>
@@ -53,7 +53,7 @@ const Home = () => {
             <FlatList
                 data={users}
                 keyExtractor={(item) => item.dob.date}
-                renderItem={({ item }: { item: FlatListProps }) => (
+                renderItem={({ item }: { item: usersTypes | any }) => (
                     <UserCard
                         name={item.name.first}
                         last={item.name.last}

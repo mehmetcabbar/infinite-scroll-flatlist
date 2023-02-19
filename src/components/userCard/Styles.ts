@@ -26,7 +26,8 @@ export const styles = StyleSheet.create({
     },
     contentWrapper: {
         flex: 1,
-        paddingLeft: 12
+        paddingLeft: 12,
+        paddingRight: 12
     },
     title: {
         fontWeight: '700',

@@ -30,7 +30,7 @@ const UserCard = ({ image, name, last, city, country, email }: userProps) => {
                 <Text style={styles.title}>{name} {last}</Text>
                 <View style={styles.locationWrapper}>
                     <Image style={styles.icon} source={{ uri: "https://cdn-icons-png.flaticon.com/512/9101/9101314.png" }} />
-                    <Text style={styles.text}>{city}, {country}</Text>
+                    <Text numberOfLines={1} style={styles.text}>{city}, {country}</Text>
                 </View>
                 <View style={styles.emailWrapper}>
                     <Image style={styles.icon} source={{ uri: "https://cdn-icons-png.flaticon.com/512/3059/3059989.png" }} />
