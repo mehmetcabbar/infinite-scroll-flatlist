@@ -1,6 +1,6 @@
-# Infinite scroll flatlist
+# Infinite scroll flatList
 An infinite scroll flatList example, that act like pagination for long list in react native &amp; typescript. Made with random user api... If you want 
-to see how is work, you should definetly check video at below... 
+to see how is work, you should definitely check video at below... 
 
 
 https://user-images.githubusercontent.com/90902141/220177889-e2ad79ea-3328-4381-b640-4342722615ba.mp4
@@ -24,7 +24,7 @@ npx react-native run-ios
 <br/>
 
 ### Why I published this code in my github repo?  
-Finding basic, simple and usefull code it can be pain the ass, sometimes!  <br/> I have a simple reason "because I need that this code lines, always!".  I realized, when I was working on some projects, some code lines is so popular on my apps. I want to create a main point for myself and of course, share to anyone who need that! <br/> 
+Finding basic, simple and useful code it can be pain in the ass, sometimes!  <br/> I have a simple reason "because I need that this code lines, always!".  I realized, when I was working on some projects, some code lines is so popular on my apps. I want to create a main point for myself and of course, share to anyone who need that! <br/> 
 Cheers 🥂
 
 <br/>
