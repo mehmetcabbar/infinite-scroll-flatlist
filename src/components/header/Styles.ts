@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
         paddingBottom: 6,
         borderBottomColor: colors.BORDER_COLOR,
         borderBottomWidth: 1,
+        elevation: 1
     },
     text: {
         fontWeight: '500'
